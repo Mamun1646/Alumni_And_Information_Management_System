@@ -1,0 +1,27 @@
+{
+  "name": "university-service",
+  "version": "1.0.0",
+  "description": "university service",
+  "main": "index.js",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "dotenv": "^5.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.5.0",
+    "koa-body": "^2.5.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-compose": "^4.1.0",
+    "koa-router": "^7.3.0",
+    "koa2-cors": "^2.0.6",
+    "md5": "^2.3.0",
+    "mongoose": "^5.12.15",
+    "nodemon": "^2.0.15",
+    "useragent": "^2.2.1",
+    "uuid": "^3.2.1",
+    "validatorjs": "^3.22.1"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  }
+}
